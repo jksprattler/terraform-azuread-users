@@ -26,7 +26,7 @@ The `display_name` is generated using the `first_name` and `last_name` CSV input
 
 All users will be provisioned with a user principal name, or username, that follows the format: `mail_nickname@domain_name`
 
-For example, user Michael Brown would have the following ser principal name generated: `mbrown@jennasrunbooks.com`
+For example, user Michael Brown would have the following user principal name generated: `mbrown@jennasrunbooks.com`
 
 ## Password Generation
 
