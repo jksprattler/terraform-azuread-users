@@ -1,0 +1,9 @@
+first_name,last_name,mail_nickname,job_title,department,account_enabled,disable_strong_password
+Michael,Brown,mbrown,Data Analyst,Analytics,false,false
+James,Smith,jsmith,Software Engineer,Engineering,true,false
+Maria,Garcia,mgarcia,Marketing Manager,Marketing,true,true
+Robert,Williams,rwilliams,Sales Representative,Sales,true,false
+Jennifer,Jones,jjones,Product Manager,Product,true,false
+Linda,Davis,ldavis,Financial Analyst,Finance,true,false
+David,Miller,dmiller,Human Resources Specialist,Human Resources,true,false
+Barbara,Wilson,bwilson,Customer Support Representative,Support,true,false
