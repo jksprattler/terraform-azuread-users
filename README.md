@@ -36,7 +36,7 @@ For example, user Michael Brown would have the following password generated: `br
 
 All users will be provisioned a temporary password that follows this format to be used upon initial login.
 
-Upon initial authentication with the auto-generated temp `password` and `mail_nickname@domain_name` user principal name, the user will be forced to change their password.
+Upon initial authentication with the auto-generated temp `password` and `mail_nickname@domain_name` user principal name, the user will be forced to change their password if the `global_force_password_change` boolean is set to `true` as seen in the example usage below.
 
 ## Example Usage
 
