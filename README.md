@@ -30,6 +30,8 @@ For example, user Michael Brown would have the following user principal name gen
 
 ## Password Generation
 
+The default behavior uses a `password_generate_random` flag set to true which generates a random, 32 character long password with a mix of lowercase letters, uppercase letters, numeric digits and special characters. This approach allows for administrators to perform a password reset for the user once they're ready to login by providing them with a new, temporary password. The auto-generated password is not output to console and only saved to terraform state. Ensure your state file is stored remotely using encryption!
+
 The module auto-generates temporary passwords for new users based on the following pattern: `<lowercase_lastname><lowercase_first_letter_of_firstname><length_of_firstname>!@#$`
 
 For example, user Michael Brown would have the following password generated: `brownm7!@#$`
