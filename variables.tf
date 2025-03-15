@@ -1,3 +1,9 @@
+variable "password_generate_random" {
+  type        = bool
+  default     = true
+  description = "Generates a random 32 character long, unused password stored to terraform state."
+}
+
 variable "users" {
   type = list(object({
     first_name                 = string
